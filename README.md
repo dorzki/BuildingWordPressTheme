@@ -3,3 +3,4 @@
 
 ##רשימת פרקים:
 1. [בניית תבנית WordPress: בניית שלד](https://www.dorzki.co.il/2016/בניית-תבנית-wordpress-בניית-שלד/)
+2. [בניית תבנית WordPress: חיבור Header](https://www.dorzki.co.il/2016/בניית-תבנית-wordpress-בניית-header/)
