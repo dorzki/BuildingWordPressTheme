@@ -16,6 +16,9 @@ function solid_theme_setup() {
 	add_theme_support( 'menus' );
 	register_nav_menu( 'main-menu', __( 'Main Menu', 'solid-state' ) );
 
+	# Enable post thumbnail
+	add_theme_support( 'post-thumbnails' );
+
 }
 
 add_action( 'after_setup_theme', 'solid_theme_setup' );
