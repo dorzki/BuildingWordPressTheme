@@ -24,6 +24,13 @@
 					<p>
 						<strong><?php esc_html_e( 'Filed under:', 'solid-state' ); ?></strong> <?php the_category( ', ' ); ?>
 					</p>
+
+					<!-- Post Navigation -->
+					<div class="post-nav">
+						<?php previous_post_link(); ?> &bullet; <?php next_post_link(); ?>
+					</div>
+					<!-- /Post Navigation -->
+
 				</div>
 			</div>
 			<!-- /Post Content -->
