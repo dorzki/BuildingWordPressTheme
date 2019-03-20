@@ -12,7 +12,7 @@
 <div id="page-wrapper">
 
 	<!-- Top Nav -->
-	<header id="header" class="alt">
+	<header id="header">
 		<h1><a href="<?php bloginfo( 'url' ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
 		<nav>
 			<a href="#menu"><?php _e( 'Menu', 'solid-state' ); ?></a>
@@ -38,12 +38,16 @@
 	</nav>
 	<!-- /Main Menu -->
 
-	<!-- Banner -->
-	<section id="banner">
-		<div class="inner">
-			<div class="logo"><span class="icon fa-diamond"></span></div>
-			<h2><?php bloginfo( 'name' ); ?></h2>
-			<p><?php bloginfo( 'description' ); ?></p>
-		</div>
-	</section>
-	<!-- /Banner -->
+	<?php if ( is_home() || is_front_page() ) : ?>
+
+		<!-- Banner -->
+		<section id="banner">
+			<div class="inner">
+				<div class="logo"><span class="icon fa-diamond"></span></div>
+				<h2><?php bloginfo( 'name' ); ?></h2>
+				<p><?php bloginfo( 'description' ); ?></p>
+			</div>
+		</section>
+		<!-- /Banner -->
+
+	<?php endif; ?>
