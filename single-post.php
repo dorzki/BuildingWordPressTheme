@@ -31,6 +31,12 @@
 					</div>
 					<!-- /Post Navigation -->
 
+					<hr>
+
+					<!-- Post Comments -->
+					<?php comments_template(); ?>
+					<!-- /Post Comments -->
+
 				</div>
 			</div>
 			<!-- /Post Content -->

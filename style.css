@@ -3711,3 +3711,8 @@ body.is-menu-visible #menu {
   }
 
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}

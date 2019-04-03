@@ -42,6 +42,10 @@ function solid_register_theme_assets() {
 		'util'
 	), '1.0.0', true );
 
+	if ( is_singular( 'post' ) ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
+
 }
 
 add_action( 'wp_enqueue_scripts', 'solid_register_theme_assets' );
